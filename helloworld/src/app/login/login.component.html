@@ -1,2 +1,42 @@
+<p-menubar [model]="items">
+    <ng-template pTemplate="start">
+        <img src="assets/showcase/images/primeng.svg" height="40" class="mr-2">
+    </ng-template>
+    <ng-template pTemplate="end">
+        <input type="text" pInputText placeholder="Search">
+    </ng-template>
+</p-menubar>
+
 <h1>Hello Login!</h1>
 <button routerLink="/test">Test</button>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
